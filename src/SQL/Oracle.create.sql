@@ -52,7 +52,7 @@ CREATE TABLE "Реле"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"СостояниеР" NVARCHAR2(255) NULL,
+	"СостояниеР" NVARCHAR2(6) NULL,
 
 	"НомерР" NUMBER(10) NULL,
 

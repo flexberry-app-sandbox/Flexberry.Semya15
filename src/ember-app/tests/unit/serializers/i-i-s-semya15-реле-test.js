@@ -9,6 +9,8 @@ moduleForModel('i-i-s-semya15-реле', 'Unit | Serializer | i-i-s-semya15-ре
     'transform:decimal',
     'transform:guid',
 
+    'transform:i-i-s-semya15-состояние',
+
     'model:i-i-s-semya15-датчик',
     'model:i-i-s-semya15-контроллер',
     'model:i-i-s-semya15-реле',

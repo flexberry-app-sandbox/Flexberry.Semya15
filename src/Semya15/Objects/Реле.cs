@@ -37,7 +37,7 @@ namespace IIS.Semya15
     public class Реле : ICSSoft.STORMNET.DataObject
     {
         
-        private string fСостояниеР;
+        private IIS.Semya15.Состояние fСостояниеР;
         
         private int fНомерР;
         
@@ -85,15 +85,14 @@ namespace IIS.Semya15
         // *** Start programmer edit section *** (Реле.СостояниеР CustomAttributes)
 
         // *** End programmer edit section *** (Реле.СостояниеР CustomAttributes)
-        [StrLen(255)]
-        public virtual string СостояниеР
+        public virtual IIS.Semya15.Состояние СостояниеР
         {
             get
             {
                 // *** Start programmer edit section *** (Реле.СостояниеР Get start)
 
                 // *** End programmer edit section *** (Реле.СостояниеР Get start)
-                string result = this.fСостояниеР;
+                IIS.Semya15.Состояние result = this.fСостояниеР;
                 // *** Start programmer edit section *** (Реле.СостояниеР Get end)
 
                 // *** End programmer edit section *** (Реле.СостояниеР Get end)

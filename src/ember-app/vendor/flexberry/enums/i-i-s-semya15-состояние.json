@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Semya15",
+  "className": "Состояние",
+  "enumObjects": {
+    "Открыт": "",
+    "Закрыт": ""
+  }
+}

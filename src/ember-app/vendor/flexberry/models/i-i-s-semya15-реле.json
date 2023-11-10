@@ -17,8 +17,8 @@
     },
     {
       "name": "состояниеР",
-      "type": "string",
-      "flexberryType": "string",
+      "type": "i-i-s-semya15-состояние",
+      "flexberryType": "Состояние",
       "notNull": false,
       "defaultValue": "",
       "stored": true,

@@ -54,8 +54,8 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     состояние: attr('Состояние', { index: 1 }),
     темпаУстан: belongsTo('i-i-s-semya15-темпа-устан', '', {
-      температура: attr('', { index: 2 })
-    }, { index: 3 }),
+      температура: attr('', { index: 3 })
+    }, { index: 2 }),
     датчик: hasMany('i-i-s-semya15-датчик', 'Датчик', {
       номерД: attr('Номер Д', { index: 0 }),
       погрешность: attr('Погрешность', { index: 1 }),

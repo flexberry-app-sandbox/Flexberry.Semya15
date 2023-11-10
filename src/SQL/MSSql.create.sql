@@ -47,7 +47,7 @@ CREATE TABLE [Реле] (
 
 	 [НомерР] INT  NULL,
 
-	 [СостояниеР] VARCHAR(255)  NULL,
+	 [СостояниеР] VARCHAR(6)  NULL,
 
 	 [Контроллер] UNIQUEIDENTIFIER  NOT NULL,
 

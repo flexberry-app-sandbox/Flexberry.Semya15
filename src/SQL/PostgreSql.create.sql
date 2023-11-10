@@ -29,7 +29,7 @@ CREATE TABLE Контроллер (
 
 CREATE TABLE Реле (
  primaryKey UUID NOT NULL,
- СостояниеР VARCHAR(255) NULL,
+ СостояниеР VARCHAR(6) NULL,
  НомерР INT NULL,
  Контроллер UUID NOT NULL,
  PRIMARY KEY (primaryKey));
