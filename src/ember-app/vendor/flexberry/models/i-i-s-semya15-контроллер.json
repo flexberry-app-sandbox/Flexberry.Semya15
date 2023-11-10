@@ -1,0 +1,124 @@
+﻿{
+  "name": "IISSemya15Контроллер",
+  "modelName": "i-i-s-semya15-контроллер",
+  "className": "Контроллер",
+  "nameSpace": "IIS.Semya15",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "темпаУстан",
+      "relatedTo": "i-i-s-semya15-темпа-устан",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "реле",
+      "relatedTo": "i-i-s-semya15-реле",
+      "inverse": "контроллер"
+    },
+    {
+      "name": "датчик",
+      "relatedTo": "i-i-s-semya15-датчик",
+      "inverse": "контроллер"
+    }
+  ],
+  "projections": [
+    {
+      "name": "КонтроллерE",
+      "modelName": "i-i-s-semya15-контроллер",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ДатчикE",
+          "caption": "Датчик",
+          "name": "датчик",
+          "relatedTo": "i-i-s-semya15-датчик",
+          "inverse": null
+        },
+        {
+          "projectionName": "РелеE",
+          "caption": "",
+          "name": "реле",
+          "relatedTo": "i-i-s-semya15-реле",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "КонтроллерL",
+      "modelName": "i-i-s-semya15-контроллер",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ДатчикL",
+          "caption": "",
+          "name": "датчик",
+          "relatedTo": "i-i-s-semya15-датчик",
+          "inverse": null
+        },
+        {
+          "projectionName": "РелеL",
+          "caption": "",
+          "name": "реле",
+          "relatedTo": "i-i-s-semya15-реле",
+          "inverse": null
+        }
+      ]
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Контроллер",
+  "name": "IISSemya15КонтроллерE",
+  "className": "КонтроллерE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya15-контроллер",
+      "modelProjection": "КонтроллерE"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Semya15",
+  "applicationTitle": "Semya15",
+  "items": [
+    {
+      "link": null,
+      "menuName": "semya15",
+      "caption": "Semya15",
+      "title": "Semya15",
+      "children": [
+        {
+          "link": "i-i-s-semya15-темпа-устан-l",
+          "menuName": null,
+          "caption": "Темпа устан",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-semya15-контроллер-l",
+          "menuName": null,
+          "caption": "Контроллер",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

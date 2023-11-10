@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-semya15-темпа-устан-e",
+  "editForm": "i-i-s-semya15-темпа-устан-e",
+  "external": false,
+  "caption": "Темпа устан",
+  "name": "IISSemya15ТемпаУстанL",
+  "className": "ТемпаУстанL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-semya15-темпа-устан",
+      "modelProjection": "ТемпаУстанL"
+    }
+  ]
+}

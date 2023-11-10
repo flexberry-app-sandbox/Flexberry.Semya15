@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISSemya15Реле",
+  "modelName": "i-i-s-semya15-реле",
+  "className": "Реле",
+  "nameSpace": "IIS.Semya15",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерР",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояниеР",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контроллер",
+      "relatedTo": "i-i-s-semya15-контроллер",
+      "inverse": "реле"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РелеE",
+      "modelName": "i-i-s-semya15-реле",
+      "attrs": [
+        {
+          "name": "номерР",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояниеР",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РелеL",
+      "modelName": "i-i-s-semya15-реле",
+      "attrs": [
+        {
+          "name": "номерР",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояниеР",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
