@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-semya15-темпа-устан-l',
             caption: i18n.t('forms.application.sitemap.semya15.i-i-s-semya15-темпа-устан-l.caption'),
             title: i18n.t('forms.application.sitemap.semya15.i-i-s-semya15-темпа-устан-l.title'),
-            icon: 'address card',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-semya15-контроллер-l',
             caption: i18n.t('forms.application.sitemap.semya15.i-i-s-semya15-контроллер-l.caption'),
             title: i18n.t('forms.application.sitemap.semya15.i-i-s-semya15-контроллер-l.title'),
-            icon: 'book',
+            icon: 'chart line',
             children: null
           }]
         }

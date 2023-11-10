@@ -30,14 +30,18 @@ namespace IIS.Semya15
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонтроллерE", new string[] {
             "Номер as \'Номер\'",
-            "Состояние as \'Состояние\'"})]
+            "Состояние as \'Состояние\'",
+            "ТемпаУстан.Температура",
+            "ТемпаУстан"})]
     [AssociatedDetailViewAttribute("КонтроллерE", "Датчик", "ДатчикE", true, "", "Датчик", true, new string[] {
             ""})]
     [AssociatedDetailViewAttribute("КонтроллерE", "Реле", "РелеE", true, "", "", true, new string[] {
             ""})]
     [View("КонтроллерL", new string[] {
             "Номер as \'Номер\'",
-            "Состояние as \'Состояние\'"})]
+            "Состояние as \'Состояние\'",
+            "ТемпаУстан",
+            "ТемпаУстан.Температура"})]
     [AssociatedDetailViewAttribute("КонтроллерL", "Датчик", "ДатчикL", true, "", "", true, new string[] {
             ""})]
     [AssociatedDetailViewAttribute("КонтроллерL", "Реле", "РелеL", true, "", "", true, new string[] {
